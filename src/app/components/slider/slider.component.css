@@ -1,0 +1,56 @@
+.slider {
+  position: relative;
+  height: 35rem;
+}
+
+.slider .slide {
+  width: 100%;
+  position: absolute;
+  height: 35rem;
+}
+
+.slider .slide-bg {
+  height: 35rem;
+}
+
+.slider .slide-bg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.slider .slide-bg::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: linear-gradient(90deg, rgb(1, 52, 61) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.slider .slide-pane {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  color: white;
+}
+
+.slider .slide-pane .title {
+  font-size: 2.7rem;
+}
+
+.slider .slide-pane .meta {
+  font-size: 1.2rem;
+}
+
+.slider .slide-pane .description {
+  font-size: 1.2rem;
+  width: 75%;
+}
+
+.pi {
+  color: rgb(140, 212, 212);
+  margin-right: 10px;
+}

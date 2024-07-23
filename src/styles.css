@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'node_modules/modern-normalize/modern-normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import 'node_modules/primeflex/primeflex.css';
+@import "primeicons/primeicons.css";
+
+@import "primeng/resources/themes/md-light-indigo/theme.css";
+@import "primeng/resources/primeng.css";
+
+
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  /* background-color: aqua; */
+}
+
+h1 {
+  font-weight: 400;
+}

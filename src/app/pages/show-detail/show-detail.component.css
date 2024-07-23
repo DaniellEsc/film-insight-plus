@@ -1,0 +1,51 @@
+/* ::ng-deep */
+.p-tabview .p-tabview-nav {
+  justify-content: center;
+}
+
+.p-tabview .p-highlight .p-tabview-title {
+  color: var(--primary-color);
+}
+
+.p-tabview .p-tabview-nav .p-tabview-ink-bar {
+  background-color: var(--primary-color);
+}
+
+/* Resto de los estilos sin cambios */
+.poster {
+  max-width: 100%;
+}
+
+.overview {
+  line-height: 1.5;
+}
+
+.stat {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.stat .label {
+  width: 150px;
+  font-weight: bold;
+}
+
+.stat .value {
+  color: blue;
+}
+
+.show-image {
+  width: 100%;
+}
+
+.actor {
+  padding: 10px;
+}
+
+.actor img {
+  width: 100%;
+}
+
+.actor div {
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+<div class="banner container" *ngIf="shows">
+  <h1>Pelis</h1>
+  <div class="row">
+    <div class="col-3 col-sm-6 col-md-4 col-lg-3" *ngFor="let show of shows">
+      <app-show-item [showItem]="show" [showType]="showsType"></app-show-item>
+    </div>
+  </div>
+</div>
+

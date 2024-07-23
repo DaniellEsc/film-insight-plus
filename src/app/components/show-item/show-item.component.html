@@ -1,0 +1,17 @@
+
+<a class="show-item" *ngIf="showItem" [routerLink]="'/detail/' + showItem.id + '/' + showType">
+  <div class="card-group ">
+    <div class="card">
+      <div class="show-item-image">
+        <img [src]="imageBaseUrl + '/w1280' + showItem.poster_path" [alt]="showItem.title" class="card-img-top img-fluid">
+      </div>
+      <div class="show-item-rating">
+        <i class="pi pi-star"></i>
+        <span class="ml-1">{{showItem.vote_average}} / 10</span>
+      </div>
+      <div class="card-body">
+        <p class="card-text">{{showItem.original_title}}</p>
+      </div>
+    </div>
+  </div>
+</a>
